@@ -185,13 +185,29 @@ header .logo img {
 .recurso ul li a {
   color: var(--gray-secundary);
   text-decoration: none;
-  display: inline-block; /* Permite centrar correctamente */
+  display: inline-block;
+  position: relative; /* Necesario para el subrayado */
+}
+
+.recurso ul li a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--gray-principal);
+  transition: width 0.3s ease; /* Anima el crecimiento del subrayado */
 }
 
 .recurso ul li a:hover {
-  color: var(--gray-principal); /* O cualquier otro color que prefieras */
-  transition: color 0.3s ease;
+  color: var(--gray-principal); /* Cambio de color */
 }
+
+.recurso ul li a:hover::after {
+  width: 100%; /* Al pasar el mouse, el subrayado se extiende */
+}
+
 
 .gray-list {
   color: var(--gray-secundary);

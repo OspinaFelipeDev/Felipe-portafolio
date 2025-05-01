@@ -122,6 +122,36 @@ header .logo img {
     display: none;
 }
 
+.recursos-section h2 {
+    font-size: 3rem;
+    margin-bottom: 2.5rem;
+}
+
+.recursos-section img {
+    width: 41%;
+}
+
+.recursos-section p {
+    max-width: 600px;
+    margin: 0 auto 2rem;
+    color: var(--gray-secundary);
+    font-size: 2.5rem;
+}
+
+.recurso h3 {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+    color: var(--gray-primary);
+    text-align: center; /* Centra el título */
+}
+
+.recurso ul {
+    padding: 0;
+    text-align: center; /* Centra el contenido de la lista */
+    list-style: none;
+    font-size: 1.3rem;
+}
+
 
 
 

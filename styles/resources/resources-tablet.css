@@ -17,6 +17,15 @@ html {
     --gray-back: #ffffff;
 }
 
+.recursos-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.recursos-section img {
+    width: 80%;
+}
+
 
 
 

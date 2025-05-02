@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto Mono', monospace;
+}
+
+:root {
+    --gray-principal: #333333;
+    --black: #000000;
+    --gray-secundary: #757575;
+    --white: #FFF;
+    --gray-back: #ffffff;
+}
+
+header {
+    background: var(--black);
+    height: 100px;
+    display: flex;
+    width: 100%;
+    min-width: 390px;
+    align-items: center;
+}
+
+.tablet {
+    display: none;
+}
+
+header .logo img {
+    height: 50px;
+    width: auto;
+    padding-left: 5px;
+    margin-left: 50px;
+    margin-top: 2px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+    /* Centrar la navegación */
+    align-items: center;
+    /* Alinear verticalmente */
+    margin-top: 2px;
+    margin-left: 80px;
+    width: 1700px;
+}
+
+.nav-container ul {
+    display: flex;
+    /* Asegura que los elementos estén en línea */
+    gap: 10px;
+    /* Espaciado entre elementos */
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    /* Quitar los estilos de lista */
+}
+
+.nav-container ul li {
+    padding: 0 10px;
+    /* Espaciado */
+}
+
+.nav-container a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.7rem;
+    font-weight: 300;
+}
+
+.nav-container .about a {
+    color: gray;
+}
+
+.nav-container ul li a:hover {
+    color: gray;
+    cursor: pointer;
+}
+
+.menu {
+    display: none;
+}
+
+.header-icons-container {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    margin-left: 40px;
+}
+
+.header-icons-container .icons {
+    width: 200px;
+    height: auto;
+    display: flex;
+    justify-items: flex-end;
+    align-items: center;
+    justify-content: space-between;
+    justify-self: end;
+    margin-right: 50px;
+    margin-top: 5px;
+}
+
+.icons span {
+    color: white;
+}
+
+.header-icons-container span:hover {
+    color: gray;
+    cursor: pointer;
+}
+
+.img-container img:hover {
+    color: gray;
+    cursor: pointer;
+}
+
+.nav-container-desplegable {
+    display: none;
+}
+
+
+
+
+
+
+
+.end-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding-inline: 14rem;
+    /* <-- añade espacio horizontal */
+}
+
+.name {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-weight: 300;
+
+    /* Alinea el <p> a la izquierda */
+}
+
+.list-end {
+    display: block;
+    /* Mostrar en tablet */
+}
+
+.list-end ul {
+    display: flex;
+    gap: 1.3rem;
+    /* Espacio entre elementos */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.list-end ul li a {
+    color: var(--gray-secundary);
+    /* Asegúrate de tener este color definido */
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 300;
+}

@@ -1,0 +1,421 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto Mono', monospace;
+}
+
+:root {
+    --gray-principal: #333333;
+    --black: #000000;
+    --gray-secundary: #757575;
+    --white: #FFF;
+    --gray-back: #ffffff;
+    --gray-back-2: #fafafa;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    position: relative;
+    z-index: 100;
+    height: 62px;
+    background: var(--black);
+}
+
+header .logo img {
+    height: 50px;
+    width: auto;
+    margin-left: 20px;
+}
+
+.menu {
+    display: none;
+}
+
+.tablet {
+    display: flex;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.menu-icon {
+    font-size: 3rem;
+    color: var(--gray-secundary);
+    margin-right: 10px;
+}
+
+.nav-container {
+    display: none;
+}
+
+.header-icons-container {
+    display: none;
+}
+
+.nav-container-desplegable {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+    background: #222222;
+    transition: max-height 0.6s ease-in-out;
+    z-index: 999;
+}
+
+.nav-container-desplegable.active {
+    max-height: 500px;
+    /* Ajusta este valor según el contenido */
+}
+
+.nav-container-desplegable ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.nav-container-desplegable ul li {
+    padding: 22px;
+    border-bottom: #363636 solid 1px;
+    /* Línea debajo de cada elemento */
+}
+
+.nav-container-desplegable ul li:last-child {
+    border-bottom: none;
+    /* Elimina la línea en el último elemento */
+}
+
+.nav-container-desplegable ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Estilos para los iconos */
+.icons {
+    display: flex;
+    justify-content: center;
+    /* Centra los iconos en el contenedor */
+    gap: 20px;
+    /* Espacio entre los iconos */
+    padding: 22px 0;
+    /* Añade algo de espacio arriba y abajo */
+}
+
+/* Personalización de los iconos */
+.icons a span {
+    color: white;
+    /* Cambia el color si lo prefieres */
+    font-size: 20px;
+}
+
+.portfolio-principal {
+    display: flex;
+    align-items: center;
+    /* Centrado vertical */
+    justify-content: center;
+    /* Centrado horizontal */
+    gap: 2rem;
+    /* Espacio entre los elementos */
+    flex-wrap: wrap;
+    /* Permite que se acomoden en columnas en pantallas pequeñas */
+    padding: 2rem;
+    text-align: center;
+    margin-top: 5rem;
+    border-bottom: 3.8px solid #ececec;
+}
+
+.portfolio-principal h1 {
+    font-size: 6.4rem;
+    letter-spacing: -1rem;
+    font-weight: 900;
+    color: var(--gray-principal);
+    margin-bottom: 1rem;
+
+}
+
+.portfolio-principal h2 {
+    font-size: 2.4rem;
+    color: var(--gray-secundary);
+    font-weight: 300;
+    line-height: 1.3;
+    text-align: left;
+    letter-spacing: -0.2rem;
+    margin-bottom: 2rem;
+}
+
+.portfolio-principal p {
+    font-size: 2rem;
+    color: var(--gray-principal);
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+
+
+
+.portfolio-principal>div {
+    flex: 1 1 300px;
+    /* Que cada div tenga al menos 300px, y se adapte */
+    max-width: 500px;
+}
+
+.image-wrapper {
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.image-principal img {
+    max-width: 100%;
+    height: 21rem;
+    display: block;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    /* Sin sombra inicialmente */
+    transition: box-shadow 0.4s ease;
+}
+
+.image-principal img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    filter: brightness(1.1) contrast(1.05);
+}
+
+
+.volleyball-container {
+    position: absolute;
+    top: 21.5%;
+    left: 37%;
+    z-index: 2;
+}
+
+.volleyball {
+    width: 23px;
+    height: 23px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+/* Para centrar también las cards del section portfolio-secundary */
+
+.portfolio-secundary {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+
+
+
+
+
+
+
+
+/* Targeta */
+
+.parent {
+    width: 300px;
+    padding: 20px;
+    perspective: 1000px;
+}
+
+.card {
+    padding-top: 50px;
+    /* border-radius: 10px; */
+    border: 3px solid var(--gray-secundary);
+    transform-style: preserve-3d;
+    background: linear-gradient(135deg, #0000 18.75%, #f3f3f3 0 31.25%, #0000 0),
+        repeating-linear-gradient(45deg, #f3f3f3 -6.25% 6.25%, #757575 0 18.75%);
+    background-size: 60px 60px;
+    background-position:
+        0 0,
+        0 0;
+    background-color: #141414;
+    width: 100%;
+    box-shadow: rgba(142, 142, 142, 0.3) 0px 30px 30px -10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.card:hover {
+    background-position:
+        -100px 100px,
+        -100px 100px;
+    transform: rotate3d(0.5, 1, 0, 30deg);
+}
+
+.content-box {
+    background-image: url('../../assets/img/cocteles-.jpg');
+    /* Cambia la ruta por la de tu imagen */
+    background-size: cover;
+    /* Asegura que cubra todo el contenedor */
+    background-position: center;
+    /* Centra la imagen */
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
+    transition: all 0.5s ease-in-out;
+    padding: 60px 25px 25px 25px;
+    transform-style: preserve-3d;
+}
+
+.card-2 .content-box {
+    background-image: url('../../assets/img/digimon-wallpaper.jpg');
+}
+
+
+
+
+.content-box .card-title {
+    display: inline-block;
+    color: var(--white);
+    font-size: 25px;
+    font-weight: 900;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 50px);
+}
+
+.content-box .card-title:hover {
+    transform: translate3d(0px, 0px, 60px);
+}
+
+.content-box .card-content {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--white);
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 30px);
+}
+
+.content-box .card-content:hover {
+    transform: translate3d(0px, 0px, 60px);
+}
+
+.content-box .see-more {
+    cursor: pointer;
+    margin-top: 1rem;
+    display: inline-block;
+    font-weight: 900;
+    font-size: 9px;
+    text-transform: uppercase;
+    color: var(--white);
+    /* border-radius: 5px; */
+    background: #141414;
+    padding: 0.5rem 0.7rem;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 20px);
+}
+
+.content-box .see-more:hover {
+    transform: translate3d(0px, 0px, 60px);
+}
+
+.date-box {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    height: 60px;
+    width: 60px;
+    background: var(--white);
+    border: 1px solid var(--gray-principal);
+    /* border-radius: 10px; */
+    padding: 10px;
+    transform: translate3d(0px, 0px, 80px);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 17px 10px -10px;
+}
+
+
+
+.date-image {
+    width: 40px;
+    /* ajusta según tu diseño */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #f5f5f5;
+    /* Cambia este color si quieres otro */
+    height: 9rem;
+    /* Ajusta la altura como necesites */
+    color: white;
+    /* Para que el texto se vea sobre el fondo oscuro */
+    border-top: 2px solid #ededed;
+    position: relative;
+}
+
+.end-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    /* Para que el contenido se alinee dentro del footer */
+    padding: 0 1rem;
+}
+
+footer .name p {
+    margin: 0;
+    font-size: 1.6rem;
+    color: var(--gray-secundary);
+}
+
+footer .name p:hover {
+    color: var(--gray-principal);
+}
+
+.arrow-up {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.arrow-up img {
+    width: 10rem;
+    border-radius: 30%;
+    border-top: 3px solid #e9e9e9;
+    transition: transform 0.3s ease, top 0.3s ease;
+    transform-origin: center center;
+    position: relative;
+}
+
+.arrow-up img:hover {
+    top: -10px;
+    transform: scale(1.05);
+    /* Ya no necesitas translateX aquí */
+}
+
+.list-end {
+    display: none;
+}

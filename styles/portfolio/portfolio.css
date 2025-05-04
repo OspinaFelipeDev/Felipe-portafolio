@@ -266,7 +266,7 @@ header .logo img {
 }
 
 .content-box {
-    background-image: url('../../assets/img/cocteles-.jpg');
+    background-image: url('../../assets/img/sport-social.avif');
     /* Cambia la ruta por la de tu imagen */
     background-size: cover;
     /* Asegura que cubra todo el contenedor */
@@ -280,6 +280,34 @@ header .logo img {
 }
 
 .card-2 .content-box {
+    background-image: url('../../assets/img/viaje_mundo.png');
+}
+
+.card-3 .content-box {
+    background-image: url('../../assets/img/cocteles-.jpg');
+}
+
+.card-4 .content-box {
+    background-image: url('../../assets/img/list-2.webp');
+}
+
+.card-5 .content-box {
+    background-image: url('../../assets/img/reproductor_cumbia.png');
+}
+
+.card-6 .content-box {
+    background-image: url('../../assets/img/viajes_turismo.png');
+}
+
+.card-7 .content-box {
+    background-image: url('../../assets/img/restaurante.jpg');
+}
+
+.card-8 .content-box {
+    background-image: url('../../assets/img/wallpaper-haykyuu.png');
+}
+
+.card-9 .content-box {
     background-image: url('../../assets/img/digimon-wallpaper.jpg');
 }
 
@@ -289,7 +317,7 @@ header .logo img {
 .content-box .card-title {
     display: inline-block;
     color: var(--white);
-    font-size: 25px;
+    font-size: 2.1rem;
     font-weight: 900;
     transition: all 0.5s ease-in-out;
     transform: translate3d(0px, 0px, 50px);

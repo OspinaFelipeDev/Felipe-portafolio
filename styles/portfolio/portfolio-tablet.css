@@ -17,6 +17,54 @@ html {
     --gray-back: #ffffff;
 }
 
+.portfolio-principal {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem;
+    text-align: left; /* Alineamos los textos a la izquierda */
+    justify-content: flex-start; /* Aseguramos que los elementos no se centren */
+    padding-inline: 4rem 4rem;
+}
+
+.portfolio-principal h1 {
+    font-size: 8.4rem;
+    letter-spacing: -1rem;
+}
+
+.portfolio-principal>div {
+    flex: 1 1 100%; /* Que los elementos ocupen el 100% de la fila */
+    max-width: 100%;
+}
+
+/* Imagen centrada en su contenedor */
+.image-wrapper {
+    position: relative;
+    width: 100%; /* Ocupa todo el ancho disponible */
+    margin: 0 5rem; /* Centrado automático */
+    text-align: center; /* Centra la imagen dentro de su contenedor */
+}
+
+.image-principal img {
+    max-width: 100%;
+    height: auto; /* Deja que la imagen mantenga su aspecto */
+    display: block;
+    margin-bottom: 2rem;
+}
+
+.volleyball-container {
+    position: absolute;
+    top: 19%;
+    left: 37.8%;
+    z-index: 2;
+}
+
+.volleyball {
+    width: 41px;
+    height: 41px;
+    animation: spin 2s linear infinite;
+}
+
 
 
 

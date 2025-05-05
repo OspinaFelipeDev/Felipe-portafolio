@@ -139,7 +139,6 @@ header .logo img {
     font-weight: 900;
     color: var(--gray-principal);
     margin-bottom: 1rem;
-
 }
 
 .portfolio-principal h2 {
@@ -159,9 +158,6 @@ header .logo img {
     margin-bottom: 2rem;
 }
 
-
-
-
 .portfolio-principal>div {
     flex: 1 1 300px;
     /* Que cada div tenga al menos 300px, y se adapte */
@@ -178,21 +174,16 @@ header .logo img {
     max-width: 100%;
     height: 21rem;
     display: block;
-    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
-    /* Sin sombra inicialmente */
-    transition: box-shadow 0.4s ease;
+    margin-bottom: 3rem;
+    border-radius: 1.5rem; /* Borde redondeado moderno */
 }
 
-.image-principal img:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-    filter: brightness(1.1) contrast(1.05);
-}
+
 
 
 .volleyball-container {
     position: absolute;
-    top: 21.5%;
+    top: 19%;
     left: 37%;
     z-index: 2;
 }
@@ -213,11 +204,8 @@ header .logo img {
     }
 }
 
-
-
-/* Para centrar también las cards del section portfolio-secundary */
-
 .portfolio-secundary {
+    background: var(--gray-back-2);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -225,20 +213,13 @@ header .logo img {
     padding: 2rem;
 }
 
-
-
-
-
-
-
-
-
 /* Targeta */
 
 .parent {
     width: 300px;
     padding: 20px;
     perspective: 1000px;
+    margin-bottom: 2.6rem;
 }
 
 .card {

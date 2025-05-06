@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Andrés Ospina | Resources</title>
+    <title>Blog |</title>
     <link rel="icon" href="assets/icons/logofelipe.png" type="image/x-icon" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;500;700&display=swap"
@@ -16,9 +16,9 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./styles/resources/resources.css" />
-    <link rel="stylesheet" href="./styles/resources/resources-tablet.css" media="(min-width: 768px)" />
-    <link rel="stylesheet" href="./styles/resources/resources-desktop.css" media="(min-width: 1024px)" />
+    <link rel="stylesheet" href="./styles/blog/blog.css" />
+    <link rel="stylesheet" href="./styles/blog/blog-tablet.css" media="(min-width: 768px)" />
+    <link rel="stylesheet" href="./styles/blog/blog-desktop.css" media="(min-width: 1024px)" />
   </head>
   <body>
 
@@ -37,8 +37,8 @@
       <section class="nav-container">
         <nav>
           <ul>
-            <li class="about"><a href="index.html">about</a></li>
-            <li class="boot"><a href="#">resources</a></li>
+            <li class="about"><a href="about.html">about</a></li>
+            <li class="boot"><a href="resources.html">resources</a></li>
             <li class="portafolio"><a href="portfolio.html">portafolio</a></li>
             <li class="blog"><a href="blog.html">blog</a></li>
             <li class="contact"><a href="contact.html">contact</a></li>
@@ -60,9 +60,9 @@
       <nav>
         <ul>
           <li class="about"><a href="index.html">About</a></li>
-          <li class="boot"><a href="#">Book</a></li>
+          <li class="boot"><a href="resources.html">Book</a></li>
           <li class="portafolio"><a href="portfolio.html">Portafolio</a></li>
-          <li class="blog"><a href="blog.html">Blog</a></li>
+          <li class="blog"><a href="#">Blog</a></li>
           <li class="contact"><a href="contact.html">Contact</a></li>
         </ul>
         <div class="icons">
@@ -76,48 +76,52 @@
 
     <main>
 
-        <section id="recursos" class="recursos-section">
-            <h2>Recursos</h2>
-            <img src="assets/img/profile-dev.jpeg" alt="">
-            <p>Algunos de los recursos que me han ayudado a aprender y mejorar como desarrollador web.</p>
+        <section class="blog-section">
+            <div class="blog-header">
+              <h2>My Blog</h2>
+              <p>Sharing my journey, tools, and front-end learnings.</p>
+            </div>
           
-            <div class="recursos-lista">
-              <div class="recurso">
-                <h3>Cursos</h3>
-                <ul>
-                  <li><a href="#">Frontend Developer — Platzi</a></li>
-                  <li><a href="#">JavaScript para Frontend — Platzi</a></li>
-                  <li><a href="#">Frontend con React — Platzi</a></li>
-                  <li><a href="#">Ciberseguridad — Google</a></li>
-                  <li><a href="#">Google AI Essentials — Google</a></li>
-                </ul>
-              </div>
+            <div class="blog-posts">
+              <a href="#" class="blog-post">
+                <img src="./assets/img/restaurante.jpg" alt="Blog preview" class="blog-image" />
+                <div class="blog-content">
+                  <h3>Top Free Resources for Front-End Beginners</h3>
+                  <p>My favorite free tools and websites to learn HTML, CSS, and JavaScript from scratch.</p>
+                  <span class="post-meta">Felipe | 5 May 2025</span>
+                </div>
+              </a>
           
-              <div class="recurso">
-                <h3>Canales de YouTube</h3>
-                <ul>
-                  <li><a href="https://www.youtube.com/@midudev">Midudev</a></li>
-                  <li><a href="https://www.youtube.com/@FaztCode">Fazt Code</a></li>
-                  <li><a href="https://www.youtube.com/@freecodecamp">freeCodeCamp</a></li>
-                </ul>
-              </div>
+              <a href="#" class="blog-post">
+                <img src="./assets/img/profile-animate.webp" alt="Blog preview" class="blog-image" />
+                <div class="blog-content">
+                  <h3>My First Portfolio Project: What I Learned</h3>
+                  <p>Lessons I took from building my first portfolio with HTML, CSS, and a bit of JS.</p>
+                  <span class="post-meta">Felipe | 27 April 2025</span>
+                </div>
+              </a>
           
-              <div class="recurso">
-                <h3>Herramientas</h3>
-                <ul class="gray-list">
-                  <li>JavaScript</li>
-                  <li>React</li>
-                  <li>Git & GitHub</li>
-                  <li>Figma</li>
-                  <li>Tailwind CSS</li>
-                </ul>
-                
-              </div>
+              <a href="#" class="blog-post">
+                <img src="./assets/img/wallpaper-haykyuu.png" alt="Blog preview" class="blog-image" />
+                <div class="blog-content">
+                  <h3>CSS Tricks I Use All the Time</h3>
+                  <p>Simple but powerful CSS tips that helped me style cleaner, more modern websites.</p>
+                  <span class="post-meta">Felipe | 15 April 2025</span>
+                </div>
+              </a>
+          
+              <a href="#" class="blog-post">
+                <img src="./assets/img/cocteles-.jpg" alt="Blog preview" class="blog-image" />
+                <div class="blog-content">
+                  <h3>Why I Love Flexbox (and How I Learned It)</h3>
+                  <p>A breakdown of my experience learning Flexbox with code examples that helped me understand it.</p>
+                  <span class="post-meta">Felipe | 7 April 2025</span>
+                </div>
+              </a>
             </div>
           </section>
           
-
-    
+          
 
 
     </main>
@@ -143,6 +147,6 @@
     </footer>
     
 
-    <script src="./js/main.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

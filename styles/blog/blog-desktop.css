@@ -121,38 +121,10 @@ header .logo img {
     display: none;
 }
 
-.portfolio-principal > div {
-    flex: 1 1 45%; /* Ambos div ocupan el 45% del espacio en la fila */
+.blog-post {
+    flex: 1 1 calc(33.333% - 2rem);
+    max-width: calc(33.333% - 2rem);
 }
-
-/* Se asegura que el contenido (texto) está alineado a la izquierda */
-.portfolio-principal h1,
-.portfolio-principal h2,
-.portfolio-principal p {
-    text-align: left; /* Alineamos los textos a la izquierda */
-}
-
-/* Ajustamos la imagen */
-.image-wrapper {
-    width: 100%; /* La imagen se adapta al 100% del contenedor */
-    margin: 0;
-}
-
-/* Esto asegura que la imagen se muestre de manera correcta */
-.image-principal img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 1.5rem; /* Borde redondeado moderno */
-}
-
-.volleyball-container {
-    position: absolute;
-    top: 20%;
-    left: 38%;
-    z-index: 2;
-}
-
-
 
 
 

@@ -121,10 +121,24 @@ header .logo img {
     display: none;
 }
 
-.blog-post {
-    flex: 1 1 calc(33.333% - 2rem);
-    max-width: calc(33.333% - 2rem);
+.blog-header {
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 7rem;
 }
+
+.blog-header h2 {
+    font-size: 3.5rem;
+}
+
+.blog-header p {
+    font-size: 1.8rem;
+}
+
+.blog-post {
+        flex: 1 1 calc(40% - 2rem);
+        max-width: calc(40% - 2rem);
+    }
 
 
 

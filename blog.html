@@ -17,11 +17,18 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./styles/blog/blog.css" />
-    <link rel="stylesheet" href="./styles/blog/blog-tablet.css" media="(min-width: 768px)" />
-    <link rel="stylesheet" href="./styles/blog/blog-desktop.css" media="(min-width: 1024px)" />
+    <link
+      rel="stylesheet"
+      href="./styles/blog/blog-tablet.css"
+      media="(min-width: 768px)"
+    />
+    <link
+      rel="stylesheet"
+      href="./styles/blog/blog-desktop.css"
+      media="(min-width: 1024px)"
+    />
   </head>
   <body>
-
     <header id="arriba">
       <div class="logo">
         <a href="index.html"
@@ -37,10 +44,10 @@
       <section class="nav-container">
         <nav>
           <ul>
-            <li class="about"><a href="about.html">about</a></li>
+            <li class="about"><a href="index.html">about</a></li>
             <li class="boot"><a href="resources.html">resources</a></li>
             <li class="portafolio"><a href="portfolio.html">portafolio</a></li>
-            <li class="blog"><a href="blog.html">blog</a></li>
+            <li class="blog"><a href="#">blog</a></li>
             <li class="contact"><a href="contact.html">contact</a></li>
           </ul>
         </nav>
@@ -75,61 +82,104 @@
     </section>
 
     <main>
+      <section class="blog-section">
+        <div class="blog-header">
+          <h2>My Blog</h2>
+          <p>Sharing my journey, tools, and front-end learnings.</p>
+        </div>
 
-        <section class="blog-section">
-            <div class="blog-header">
-              <h2>My Blog</h2>
-              <p>Sharing my journey, tools, and front-end learnings.</p>
+        <div class="blog-posts">
+          <a
+            href="https://dev.to/swirl/24-best-resources-for-web-developers-html-css-javascript--2hog"
+            class="blog-post"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="./assets/img/dev-community.jpg"
+              alt="Blog preview"
+              class="blog-image"
+            />
+            <div class="blog-content">
+              <h3>Top Free Resources for Front-End Beginners</h3>
+              <p>
+                My favorite free tools and websites to learn HTML, CSS, and
+                JavaScript from scratch.
+              </p>
+              <span class="post-meta">Felipe | 5 May 2025</span>
             </div>
-          
-            <div class="blog-posts">
-              <a href="#" class="blog-post">
-                <img src="./assets/img/restaurante.jpg" alt="Blog preview" class="blog-image" />
-                <div class="blog-content">
-                  <h3>Top Free Resources for Front-End Beginners</h3>
-                  <p>My favorite free tools and websites to learn HTML, CSS, and JavaScript from scratch.</p>
-                  <span class="post-meta">Felipe | 5 May 2025</span>
-                </div>
-              </a>
-          
-              <a href="#" class="blog-post">
-                <img src="./assets/img/profile-animate.webp" alt="Blog preview" class="blog-image" />
-                <div class="blog-content">
-                  <h3>My First Portfolio Project: What I Learned</h3>
-                  <p>Lessons I took from building my first portfolio with HTML, CSS, and a bit of JS.</p>
-                  <span class="post-meta">Felipe | 27 April 2025</span>
-                </div>
-              </a>
-          
-              <a href="#" class="blog-post">
-                <img src="./assets/img/wallpaper-haykyuu.png" alt="Blog preview" class="blog-image" />
-                <div class="blog-content">
-                  <h3>CSS Tricks I Use All the Time</h3>
-                  <p>Simple but powerful CSS tips that helped me style cleaner, more modern websites.</p>
-                  <span class="post-meta">Felipe | 15 April 2025</span>
-                </div>
-              </a>
-          
-              <a href="#" class="blog-post">
-                <img src="./assets/img/cocteles-.jpg" alt="Blog preview" class="blog-image" />
-                <div class="blog-content">
-                  <h3>Why I Love Flexbox (and How I Learned It)</h3>
-                  <p>A breakdown of my experience learning Flexbox with code examples that helped me understand it.</p>
-                  <span class="post-meta">Felipe | 7 April 2025</span>
-                </div>
-              </a>
+          </a>
+
+           <a
+            href="https://www.freecodecamp.org/espanol/news/como-construir-tu-propio-portafolio-web-desarrollador/"
+            class="blog-post"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="./assets/img/build-portfolio.jpg"
+              alt="Blog preview"
+              class="blog-image"
+            />
+            <div class="blog-content">
+              <h3>My First Portfolio Project: What I Learned</h3>
+              <p>
+                Lessons I took from building my first portfolio with HTML, CSS,
+                and a bit of JS.
+              </p>
+              <span class="post-meta">Felipe | 27 April 2025</span>
             </div>
-          </section>
-          
-          
+          </a>
 
+          <a
+            href="https://css-tricks.com/"
+            class="blog-post"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="./assets/img/css-triks.jpg"
+              alt="Blog preview"
+              class="blog-image"
+            />
+            <div class="blog-content">
+              <h3>CSS Tricks I Use All the Time</h3>
+              <p>
+                Simple but powerful CSS tips that helped me style cleaner, more
+                modern websites.
+              </p>
+              <span class="post-meta">Felipe | 15 April 2025</span>
+            </div>
+          </a>
 
+          <a
+            href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/"
+            class="blog-post"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="./assets/img/flex-box.png"
+              alt="Blog preview"
+              class="blog-image"
+            />
+            <div class="blog-content">
+              <h3>Why I Love Flexbox (and How I Learned It)</h3>
+              <p>
+                A breakdown of my experience learning Flexbox with code examples
+                that helped me understand it.
+              </p>
+              <span class="post-meta">Felipe | 7 April 2025</span>
+            </div>
+          </a>
+        </div>
+      </section>
     </main>
 
     <footer>
       <section class="end-container">
         <a href="#arriba" class="arrow-up">
-          <img src="assets/icons/flecha.png" alt="">
+          <img src="assets/icons/flecha.png" alt="" />
         </a>
         <div class="name">
           <p>©️ 2025 Andres Ospina</p>
@@ -145,7 +195,6 @@
         </nav>
       </section>
     </footer>
-    
 
     <script src="js/main.js"></script>
   </body>

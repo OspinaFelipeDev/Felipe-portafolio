@@ -121,13 +121,13 @@ header .logo img {
 main {
     padding: 2rem;
     font-family: sans-serif;
-    background-color: #f9f9f9;
+    margin-bottom: 5rem;
 }
 
 /* Encabezado del blog */
 .blog-header {
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
 }
 
 .blog-header h2 {
@@ -169,10 +169,14 @@ main {
 }
 
 .blog-image {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     aspect-ratio: 16 / 9;
-    width: 100%;
-    object-fit: cover;
 }
+
+
+
 
 /* Contenido */
 .blog-content {

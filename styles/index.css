@@ -418,9 +418,12 @@ header .logo img {
 }
 
 footer {
-  background-color: #f5f5f5; /* Cambia este color si quieres otro */
-  height: 9rem; /* Ajusta la altura como necesites */
-  color: white; /* Para que el texto se vea sobre el fondo oscuro */
+  background-color: #f5f5f5;
+  /* Cambia este color si quieres otro */
+  height: 9rem;
+  /* Ajusta la altura como necesites */
+  color: white;
+  /* Para que el texto se vea sobre el fondo oscuro */
   border-top: 2px solid #ededed;
   position: relative;
 }
@@ -429,7 +432,8 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%; /* Para que el contenido se alinee dentro del footer */
+  height: 100%;
+  /* Para que el contenido se alinee dentro del footer */
   padding: 0 1rem;
 }
 
@@ -461,14 +465,9 @@ footer .name p:hover {
 
 .arrow-up img:hover {
   top: -10px;
-  transform: scale(1.05); /* Ya no necesitas translateX aquí */
+  transform: scale(1.05);
+  /* Ya no necesitas translateX aquí */
 }
-
-
-
-
-
-
 
 .list-end {
   display: none;

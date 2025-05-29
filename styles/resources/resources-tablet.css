@@ -17,16 +17,15 @@ html {
     --gray-back: #ffffff;
 }
 
- .recursos-lista {
+.recursos-lista {
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 2rem;
-    align-items: flex-start; /* <-- alinea los elementos arriba */
+    align-items: flex-start;
+    /* <-- alinea los elementos arriba */
     margin-top: 3rem;
-  }
-
-
+}
 
 .recursos-section img {
     width: 80%;

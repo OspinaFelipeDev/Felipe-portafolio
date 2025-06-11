@@ -72,7 +72,7 @@ header .logo img {
     font-weight: 300;
 }
 
-.nav-container .about a {
+.nav-container .contact a {
     color: gray;
 }
 
@@ -124,29 +124,29 @@ header .logo img {
 .card {
     width: 300px;
     height: 350px;
-  }
+}
 
-  .card-photo img {
+.card-photo img {
     width: 150px;
     height: 150px;
-  }
+}
 
-  .card-title {
+.card-title {
     font-size: 24px;
-  }
+}
 
-  .card-title span {
+.card-title span {
     font-size: 18px;
-  }
+}
 
-  .card-socials-btn {
+.card-socials-btn {
     width: 30px;
     height: 30px;
-  }
+}
 
 
-.email-form {
-    max-width: 700px;
+#contact-form {
+    max-width: 600px;
     /* más ancho en desktop */
     margin: 2rem auto;
     padding: 2rem;
@@ -154,21 +154,21 @@ header .logo img {
     margin-bottom: 4rem;
 }
 
-.email-form h2 {
+#contact-form h2 {
     font-size: 3rem;
     margin-bottom: 1rem;
     text-align: center;
 }
 
-.email-form label {
+#contact-form label {
     font-size: 1.5rem;
     display: block;
     margin-bottom: 0.5rem;
     font-weight: bold;
 }
 
-.email-form input,
-.email-form textarea {
+#contact-form input,
+#contact-form textarea {
     width: 100%;
     padding: 1rem;
     font-size: 1.5rem;
@@ -177,7 +177,7 @@ header .logo img {
     border-radius: 8px;
 }
 
-.email-form button {
+#contact-form button {
     width: 100%;
     padding: 1rem;
     font-size: 1.5rem;
@@ -189,14 +189,9 @@ header .logo img {
     transition: background 0.3s ease;
 }
 
-.email-form button:hover {
+#contact-form button:hover {
     background-color: #555;
 }
-
-
-
-
-
 
 .end-container {
     display: flex;

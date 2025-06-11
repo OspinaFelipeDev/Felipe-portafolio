@@ -17,14 +17,6 @@ html {
     --gray-back: #ffffff;
 }
 
-
-
-
-
-
-
-
-
 .end-container {
     justify-content: space-between;
     /* Separar .name y .list-end */

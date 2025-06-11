@@ -245,7 +245,7 @@ main {
 }
 
 /* Estilos base del formulario */
-.email-form {
+#contact-form {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -259,9 +259,9 @@ main {
 }
 
 /* Asegurar que los inputs ocupen todo el ancho */
-.email-form input,
-.email-form textarea,
-.email-form button {
+#contact-form input,
+#contact-form textarea,
+#contact-form button {
     width: 100%;
     padding: 0.75rem;
     font-size: 1rem;
@@ -271,26 +271,28 @@ main {
 }
 
 /* Botón */
-.email-form button {
-  background-color: #333;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  padding: 1rem;
-  font-size: 1.1rem;
-  border-radius: 8px;
-  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+#contact-form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 1rem;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.email-form button:hover {
-  background-color: #555;
-  transform: scale(1.03); /* efecto de agrandamiento suave */
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* sombra moderna */
+#contact-form button:hover {
+    background-color: #555;
+    transform: scale(1.03);
+    /* efecto de agrandamiento suave */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    /* sombra moderna */
 }
 
-.email-form button:active {
-  transform: scale(0.98);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+#contact-form button:active {
+    transform: scale(0.98);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 

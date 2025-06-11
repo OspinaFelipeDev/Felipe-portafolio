@@ -30,7 +30,7 @@ header {
 }
 
 header .logo img {
-  height: 50px;
+  height: 60px;
   width: auto;
   margin-left: 20px;
 }
@@ -326,13 +326,13 @@ header .logo img {
 }
 
 .fondo-todo {
-  background-image: url('../assets/img/cocteles-.jpg');
+  background-image: url('../assets/img/port-todo-list-1.png');
   background-size: cover;
   background-position: center;
 }
 
 .fondo-sports {
-  background-image: url('../assets/img/haikyu1.jpg');
+  background-image: url('../assets/img/port-sport-1.png');
   background-size: cover;
   background-position: center;
 }

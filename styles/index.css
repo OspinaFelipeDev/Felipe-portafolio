@@ -179,6 +179,14 @@ header .logo img {
   margin-bottom: 3rem;
 }
 
+.text-right {
+  margin-left: -2rem;
+}
+
+.text-left {
+  margin-right: -5.5rem;
+}
+
 .text-block p {
   display: none;
   font-size: 1.2rem;

@@ -41,10 +41,29 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
-const container = document.querySelector(".image-container");
-const frontImage = document.querySelector(".front");
+document.addEventListener("DOMContentLoaded", () => {
+  const container = document.querySelector(".reveal-container");
+  const frontImage = container.querySelector(".image-front");
+  const backImage = container.querySelector(".image-back");
 
-container.addEventListener("mousemove", (e) => {
-  let percent = (e.offsetX / container.offsetWidth) * 100;
-  frontImage.style.clipPath = `inset(0 ${100 - percent}% 0 0)`;
+  container.addEventListener("mousemove", (e) => {
+    const rect = container.getBoundingClientRect();
+    const percent = ((e.clientX - rect.left) / rect.width) * 100;
+
+    // La frontal se muestra de izquierda a derecha
+    frontImage.style.clipPath = `inset(0 ${100 - percent}% 0 0)`;
+
+    // La de fondo se oculta de izquierda a derecha
+    backImage.style.clipPath = `inset(0 ${percent}% 0 0)`;
+  });
+
+  container.addEventListener("mouseleave", () => {
+    frontImage.style.clipPath = `inset(0 100% 0 0)`; // Oculta la frontal
+    backImage.style.clipPath = `inset(0 0% 0 0)`; // Muestra toda la de fondo
+  });
 });
+
+
+
+
+

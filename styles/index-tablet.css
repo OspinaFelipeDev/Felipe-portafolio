@@ -17,52 +17,9 @@ html {
     --gray-back: #ffffff;
 }
 
-.container-principal {
-    position: relative;
-    min-height: 400px;
-}
 
-.img-pequeña {
-    width: 500px;
-    height: 380px;
-}
 
-.title-1,
-.title-2 {
-    font-size: 5.6rem;
-    margin-top: 8rem;
-    z-index: 1;
-    margin-bottom: 0rem;
-}
 
-.title-1 {
-    margin-right: 15rem;
-}
-
-.title-2 {
-    margin-left: 15rem;
-}
-
-.parrafo-1,
-.parrafo-2 {
-    display: block;
-    font-size: 1.6rem;
-    font-weight: 400;
-    max-width: 200px;
-    color: #757575;
-    z-index: 2;
-}
-
-.parrafo-1 {
-    margin-right: 9rem;
-    text-align: left;
-    width: 60%;
-}
-
-.parrafo-2 {
-    margin-right: -16rem;
-    text-align: left;
-}
 
 .container-secundary {
     align-items: center;

@@ -17,31 +17,8 @@ html {
     --gray-back: #ffffff;
 }
 
-.text-block h1 {
-    font-size: 4.2rem;
-    margin: 0;
-    margin-bottom: 5rem;
-}
 
-.text-left {
-    margin-right: -9.5rem;
-}
 
-.container-secundary {
-    align-items: center;
-}
-
-.section-title {
-    margin-bottom: 6rem;
-    font-size: 2rem;
-}
-
-.cards-wrapper {
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 30px;
-}
 
 .end-container {
     justify-content: space-between;

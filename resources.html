@@ -17,11 +17,18 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./styles/resources/resources.css" />
-    <link rel="stylesheet" href="./styles/resources/resources-tablet.css" media="(min-width: 768px)" />
-    <link rel="stylesheet" href="./styles/resources/resources-desktop.css" media="(min-width: 1024px)" />
+    <link
+      rel="stylesheet"
+      href="./styles/resources/resources-tablet.css"
+      media="(min-width: 768px)"
+    />
+    <link
+      rel="stylesheet"
+      href="./styles/resources/resources-desktop.css"
+      media="(min-width: 1024px)"
+    />
   </head>
   <body>
-
     <header id="arriba">
       <div class="logo">
         <a href="index.html"
@@ -75,53 +82,111 @@
     </section>
 
     <main>
+      <section id="recursos" class="recursos-section">
+        <h2>Resources</h2>
+        <img src="assets/img/profile-dev.jpeg" alt="" />
+        <p>
+          Some of the resources that have helped me learn and grow as a web
+          developer.
+        </p>
 
-        <section id="recursos" class="recursos-section">
-            <h2>Resources</h2>
-            <img src="assets/img/profile-dev.jpeg" alt="">
-            <p>Some of the resources that have helped me learn and grow as a web developer.</p>
-          
-            <div class="recursos-lista">
-              <div class="recurso">
-                <h3>Courses</h3>
-                <ul>
-                  <li><a href="#">Frontend Developer — Platzi</a></li>
-                  <li><a href="#">JavaScript para Frontend — Platzi</a></li>
-                  <li><a href="#">Frontend con React — Platzi</a></li>
-                  <li><a href="#">Ciberseguridad — Google</a></li>
-                  <li><a href="#">Google AI Essentials — Google</a></li>
-                </ul>
-              </div>
-          
-              <div class="recurso">
-                <h3>YouTube Channels</h3>
-                <ul>
-                  <li><a href="https://www.youtube.com/@midudev">Midudev</a></li>
-                  <li><a href="https://www.youtube.com/@FaztCode">Fazt Code</a></li>
-                  <li><a href="https://www.youtube.com/@freecodecamp">freeCodeCamp</a></li>
-                </ul>
-              </div>
-          
-              <div class="recurso">
-                <h3>Tools</h3>
-                <ul class="gray-list">
-                  <li>JavaScript</li>
-                  <li>React</li>
-                  <li>Git & GitHub</li>
-                  <li>Figma</li>
-                  <li>Tailwind CSS</li>
-                </ul>
-                
-              </div>
-            </div>
-          </section>
-          
+        <div class="recursos-lista">
+          <div class="recurso">
+            <h3>Courses</h3>
+            <ul>
+              <li><a href="#">Frontend Developer — Platzi</a></li>
+              <li><a href="#">JavaScript para Frontend — Platzi</a></li>
+              <li><a href="#">Frontend con React — Platzi</a></li>
+              <li><a href="#">Ciberseguridad — Google</a></li>
+              <li><a href="#">Google AI Essentials — Google</a></li>
+            </ul>
+          </div>
+
+          <div class="recurso">
+            <h3>YouTube Channels</h3>
+            <ul>
+              <li><a href="https://www.youtube.com/@midudev">Midudev</a></li>
+              <li><a href="https://www.youtube.com/@FaztCode">Fazt Code</a></li>
+              <li>
+                <a href="https://www.youtube.com/@freecodecamp">freeCodeCamp</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="recurso">
+            <h3>Tools</h3>
+            <ul class="gray-list">
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Git & GitHub</li>
+              <li>Figma</li>
+              <li>Tailwind CSS</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+    <section class="tech">
+  <h1 class="tech-title">Tech Stack</h1>
+
+  <!-- Fundamentos -->
+  <h2 class="tech-subtitle">Fundamentos del Desarrollo Web</h2>
+  <div class="tech-icons">
+    <div class="icon html"><i class="fab fa-html5"></i><p>HTML5</p></div>
+    <div class="icon css"><i class="fab fa-css3-alt"></i><p>CSS3</p></div>
+    <div class="icon js"><i class="fab fa-js-square"></i><p>JavaScript</p></div>
+  </div>
+
+  <!-- Librerías & Frameworks -->
+  <h2 class="tech-subtitle">Librerías & Frameworks</h2>
+  <div class="tech-icons">
+    <div class="icon react"><i class="fab fa-react"></i><p>React</p></div>
+    <div class="icon astro"><img src="https://cdn.simpleicons.org/astro/000000" alt="Astro" /><p>Astro</p></div>
+    <div class="icon sass"><i class="fab fa-sass"></i><p>SASS</p></div>
+    <div class="icon tailwind">
+  <img src="https://cdn.simpleicons.org/tailwindcss/000000" alt="Tailwind" />
+  <p>Tailwind</p>
+</div>
+
+  </div>
+
+  <!-- Herramientas -->
+  <h2 class="tech-subtitle">Herramientas & Plataformas</h2>
+  <div class="tech-icons">
+    <div class="icon git"><i class="fab fa-git-alt"></i><p>Git</p></div>
+    <div class="icon github"><i class="fab fa-github"></i><p>GitHub</p></div>
+    <div class="icon npm"><i class="fab fa-npm"></i><p>NPM</p></div>
+    <div class="icon node"><i class="fab fa-node-js"></i><p>Node.js</p></div>
+    <div class="icon webpack"><img src="https://cdn.simpleicons.org/webpack/000000" alt="Webpack" /><p>Webpack</p></div>
+    <div class="icon docker"><i class="fab fa-docker"></i><p>Docker</p></div>
+    <div class="icon cloud"><i class="fas fa-cloud"></i><p>Google Cloud</p></div>
+  </div>
+
+  <!-- Otras habilidades -->
+  <h2 class="tech-subtitle">Otras habilidades</h2>
+  <div class="tech-icons">
+    <div class="icon ciberseguridad"><i class="fas fa-shield-alt"></i><p>Ciberseguridad</p></div>
+    <div class="icon figma"><i class="fab fa-figma"></i><p>Figma</p></div>
+    <div class="icon photoshop">
+      <svg role="img" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <title>Adobe Photoshop</title>
+        <path d="M0 0v24h24V0H0zm20.54 20.54H3.46V3.46h17.08v17.08zM7.75 16.34v-8.7h3.18c.54 0 .99.06 1.33.18.34.12.62.29.84.5.21.21.37.45.47.72.1.27.15.55.15.85 0 .34-.06.65-.17.94-.11.29-.28.54-.5.76-.22.22-.5.4-.83.53-.34.13-.73.2-1.17.2H9.4v3.02H7.75zm1.65-4.4h1.38c.25 0 .47-.03.67-.1.2-.07.37-.17.5-.31.13-.14.23-.31.3-.5.07-.19.1-.4.1-.63 0-.42-.13-.74-.38-.98-.26-.24-.65-.36-1.17-.36H9.4v2.88zm6.56-1.37c.37 0 .7.03.98.1.28.06.52.13.7.21l-.32 1.28c-.2-.07-.42-.13-.66-.17-.24-.04-.5-.06-.78-.06-.32 0-.59.03-.8.1-.21.07-.38.16-.51.27-.13.11-.23.23-.29.36-.06.13-.09.27-.09.41 0 .22.06.42.18.59.12.17.31.3.55.4.24.09.54.14.9.14.37 0 .7-.03.99-.1.29-.06.52-.13.7-.2l.28 1.27c-.14.07-.36.15-.67.23-.31.08-.7.12-1.19.12-.58 0-1.08-.08-1.5-.24-.42-.16-.75-.39-1-.68a1.75 1.75 0 01-.36-1.1c0-.42.11-.78.33-1.08.22-.3.54-.53.95-.7.42-.17.91-.25 1.47-.25z"/>
+      </svg>
+      <p>Photoshop</p>
+    </div>
+  </div>
+</section>
+
+
+
+
+
     </main>
 
     <footer>
       <section class="end-container">
         <a href="#arriba" class="arrow-up">
-          <img src="assets/icons/flecha.png" alt="">
+          <img src="assets/icons/flecha.png" alt="" />
         </a>
         <div class="name">
           <p>©️ 2025 Andres Ospina</p>
@@ -137,7 +202,6 @@
         </nav>
       </section>
     </footer>
-    
 
     <script src="./js/main.js"></script>
   </body>

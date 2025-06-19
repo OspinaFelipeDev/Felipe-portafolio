@@ -219,6 +219,159 @@ header .logo img {
   color: var(--gray-secundary);
 }
 
+.tech {
+  text-align: center;
+  padding: 4rem 2rem;
+  margin-bottom: 3rem;
+}
+
+.tech-title {
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.tech-subtitle {
+  font-size: 1.8rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  color: #666;
+}
+
+.tech-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  transition: transform 0.3s ease;
+  color: black;
+}
+
+.icon i {
+  font-size: 40px;
+  /* Fuerza el tamaño del ícono */
+  width: 40px;
+  height: 40px;
+  display: block;
+  text-align: center;
+  line-height: 40px;
+}
+
+/* Estilo general para todos los íconos */
+.icon i,
+.icon img,
+.icon svg {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  display: block;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+/* Solo aplicar filtro a imágenes y SVGs, no a los <i> */
+.icon img,
+.icon svg {
+  filter: brightness(0);
+}
+
+.icon p {
+  font-size: 1.4rem;
+  margin-top: 0.5rem;
+  color: #555;
+}
+
+/* Hover general */
+.icon:hover {
+  transform: scale(1.1);
+}
+
+/* Hover: colores específicos */
+.icon.html:hover {
+  color: #E44D26;
+}
+
+.icon.css:hover {
+  color: #264DE4;
+}
+
+.icon.js:hover {
+  color: #F7DF1E;
+}
+
+.icon.react:hover {
+  color: #61DBFB;
+}
+
+.icon.sass:hover {
+  color: #CD6799;
+}
+
+.icon.tailwind:hover img {
+  content: url("https://cdn.simpleicons.org/tailwindcss/38BDF8");
+  /* azul oficial */
+  filter: none;
+}
+
+.icon.git:hover {
+  color: #F05032;
+}
+
+.icon.github:hover {
+  color: #333;
+}
+
+.icon.npm:hover {
+  color: #CB3837;
+}
+
+.icon.node:hover {
+  color: #68A063;
+}
+
+.icon.webpack:hover img {
+  content: url("https://cdn.simpleicons.org/webpack/8DD6F9");
+  filter: none;
+}
+
+.icon.docker:hover {
+  color: #2496ED;
+}
+
+.icon.cloud:hover {
+  color: #4285F4;
+}
+
+.icon.figma:hover {
+  color: #F24E1E;
+}
+
+.icon.ciberseguridad:hover {
+  color: #0B5ED7;
+}
+
+.icon.astro:hover img {
+  content: url("https://cdn.simpleicons.org/astro/FF5D01");
+  filter: none;
+}
+
+.icon.photoshop:hover svg {
+  filter: none;
+  fill: #31A8FF;
+}
+
+.cloud p {
+  letter-spacing: -0.2rem;
+}
+
 footer {
   background-color: #f5f5f5;
   /* Cambia este color si quieres otro */

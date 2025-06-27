@@ -17,6 +17,16 @@ html {
     --gray-back: #ffffff;
 }
 
+.container-developer h1,
+.container-bartender h1 {
+    font-size: 3rem;
+}
+
+.container-developer ul,
+.container-bartender ul {
+    font-size: 2rem;
+}
+
 
 
 

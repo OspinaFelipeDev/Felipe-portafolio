@@ -121,6 +121,79 @@ header .logo img {
     display: none;
 }
 
+.personal-information {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 3rem;
+}
+
+
+/* Contenedor del texto alineado a la izquierda */
+.container-content {
+    flex: 1 1 300px;
+    text-align: left;
+    max-width: 600px;
+}
+
+.container-content h1 {
+    font-size: 10rem;
+    letter-spacing: -0.8rem;
+    color: var(--gray-principal);
+    margin-top: 3rem;
+}
+
+.container-content .p-intro {
+    font-size: 2.4rem;
+    font-weight: 300;
+    color: var(--gray-secundary);
+    margin-bottom: 2rem;
+}
+
+.container-content .p-detail {
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--gray-principal);
+    width: 90%;
+}
+
+
+
+.photos {
+    display: flex;
+    flex-wrap: nowrap;
+    /* Todas en una fila */
+    justify-content: center;
+    gap: 1.5rem;
+    overflow-x: auto;
+    /* Permite scroll si hay muchas fotos */
+    padding: 1rem;
+    margin-top: 3rem;
+}
+
+.photos img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 1rem;
+
+    border: 2px solid #e0e0e0;
+    outline: 4px solid white;
+    outline-offset: -6px;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.skilss {
+    flex-direction: row;
+}
+
+.container-bartender {
+    margin-top: 4rem;
+}
+
 
 
 .end-container {
@@ -162,4 +235,8 @@ header .logo img {
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: 300;
+}
+
+.personal-information {
+    padding: 2rem 5rem;
 }

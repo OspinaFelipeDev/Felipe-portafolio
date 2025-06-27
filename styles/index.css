@@ -124,6 +124,7 @@ header .logo img {
   aspect-ratio: 3 / 2;
   margin: 0 auto;
   overflow: hidden;
+  margin-top: 1.5rem;
 }
 
 .image-back,

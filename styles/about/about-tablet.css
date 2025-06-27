@@ -27,6 +27,20 @@ html {
     font-size: 2rem;
 }
 
+ .container-fan {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .container-information h1 {
+    font-size: 3rem;
+   
+}
+
+.random-facts ul {
+    font-size: 1.7rem;
+   
+}
 
 
 

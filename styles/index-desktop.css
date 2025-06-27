@@ -72,10 +72,6 @@ header .logo img {
     font-weight: 300;
 }
 
-.nav-container .about a {
-    color: gray;
-}
-
 .nav-container ul li a:hover {
     color: gray;
     cursor: pointer;
@@ -93,7 +89,6 @@ header .logo img {
 
 .header-icons-container .icons {
     width: 200px;
-    height: auto;
     display: flex;
     justify-items: flex-end;
     align-items: center;
@@ -103,9 +98,11 @@ header .logo img {
     margin-top: 5px;
 }
 
-.icons span {
+.icons a span {
     color: white;
+    font-size: 2.8rem;
 }
+
 
 .header-icons-container span:hover {
     color: gray;

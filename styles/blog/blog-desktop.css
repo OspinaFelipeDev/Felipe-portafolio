@@ -103,8 +103,9 @@ header .logo img {
     margin-top: 5px;
 }
 
-.icons span {
+.icons a span {
     color: white;
+    font-size: 2.8rem;
 }
 
 .header-icons-container span:hover {

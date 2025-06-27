@@ -103,8 +103,9 @@ header .logo img {
     margin-top: 5px;
 }
 
-.icons span {
+.icons a span {
     color: white;
+    font-size: 2.8rem;
 }
 
 .header-icons-container span:hover {
@@ -193,6 +194,18 @@ header .logo img {
 .container-bartender {
     margin-top: 4rem;
 }
+
+.random-facts {
+    flex-direction: row; /* Fila en desktop */
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .container-information,
+  .container-fan {
+    flex: 1 1 50%;
+    max-width: 500px;
+  }
 
 
 

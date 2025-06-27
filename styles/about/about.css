@@ -118,19 +118,19 @@ header .logo img {
 }
 
 .personal-information {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 2rem;
-  padding: 2rem 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 3rem;
 }
 
 
 /* Contenedor del texto alineado a la izquierda */
 .container-content {
-  flex: 1 1 300px;
-  text-align: left;
-  max-width: 600px;
+    flex: 1 1 300px;
+    text-align: left;
+    max-width: 600px;
 }
 
 .container-content h1 {
@@ -156,69 +156,77 @@ header .logo img {
 
 /* Contenedor de la imagen centrada */
 .container-img {
-  flex: 1 1 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+    flex: 1 1 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .container-img img {
-  max-width: 100%;
-  height: auto;
-  border-bottom: 3px solid #f2f2f2; /* Borde inferior gris */
+    max-width: 100%;
+    height: auto;
+    border-bottom: 3px solid #f2f2f2;
+    /* Borde inferior gris */
 }
 
 .photos {
-  display: flex;
-  flex-wrap: wrap; /* Permite que pasen a otra fila en pantallas pequeñas */
-  justify-content: center; /* Centra horizontalmente */
-  gap: 1.5rem;
-  margin-top: 3rem;
-  padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    /* Permite que pasen a otra fila en pantallas pequeñas */
+    justify-content: center;
+    /* Centra horizontalmente */
+    gap: 1.5rem;
+    margin-top: 3rem;
+    padding: 1rem;
 }
 
 .photos img {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 1rem;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 1rem;
 
-  border: 2px solid #e0e0e0;         /* Borde interior */
-  outline: 4px solid white;          /* Espacio blanco entre bordes */
-  outline-offset: -6px;              /* Superpone el outline al borde */
+    border: 2px solid #e0e0e0;
+    /* Borde interior */
+    outline: 4px solid white;
+    /* Espacio blanco entre bordes */
+    outline-offset: -6px;
+    /* Superpone el outline al borde */
 
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
 }
 
 .photos img:hover {
-  transform: scale(1.05);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-  border-color: #bdbdbd; /* Cambia el color del borde en hover */
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    border-color: #bdbdbd;
+    /* Cambia el color del borde en hover */
 }
 
 .skilss {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 2rem;
-  padding: 2rem;
-  text-align: center;
-  background: var(--gray-back-2);
-  border-top: 2.8px solid #e6e6e6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+    text-align: center;
+    background: var(--gray-back-2);
+    border-top: 2.8px solid #e6e6e6;
+    border-bottom: 2.8px solid #e6e6e6;
 }
 
-.skilss > div {
-  max-width: 400px;
+.skilss>div {
+    max-width: 400px;
 }
 
 .skills-list-dev,
 .skills-list-bar {
-  list-style: none;
-  padding-left: 0;
-  margin: 0;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
 }
 
 .container-developer {
@@ -227,29 +235,72 @@ header .logo img {
 
 .container-developer h1,
 .container-bartender h1 {
-  font-size: 2.4rem;
-  font-weight: 300;
-  margin-bottom: 2rem;
-  color: var(--gray-principal);
+    font-size: 2.7rem;
+    letter-spacing: -0.2rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+    color: var(--gray-principal);
 }
 
 .container-developer ul,
 .container-bartender ul {
-  font-size: 1.4rem;
-  color: var(--gray-principal);
-  font-weight: 300;
+    font-size: 1.4rem;
+    color: var(--gray-principal);
+    font-weight: 300;
 }
 
 .container-developer li,
 .container-bartender li {
-  margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 
 .skilss img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 1.5rem;
+    max-width: 100%;
+    height: auto;
+    border-radius: 1.5rem;
+}
+
+.random-facts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.container-information {
+    max-width: 400px;
+}
+
+.container-information h1 {
+    font-size: 2.7rem;
+    color: var(--gray-principal);
+    font-weight: 300;
+    margin: 4rem 0 2rem 0;
+}
+
+.random-facts ul {
+    font-size: 1.4rem;
+    color: var(--gray-principal);
+    font-weight: 300;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.random-facts li {
+    margin-bottom: 1.5rem;
+}
+
+
+.container-fan img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 1rem;
 }
 
 

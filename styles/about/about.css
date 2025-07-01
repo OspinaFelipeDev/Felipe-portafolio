@@ -88,11 +88,6 @@ header .logo img {
     /* Línea debajo de cada elemento */
 }
 
-.nav-container-desplegable ul li:last-child {
-    border-bottom: none;
-    /* Elimina la línea en el último elemento */
-}
-
 .nav-container-desplegable ul li a {
     color: white;
     text-decoration: none;

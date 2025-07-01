@@ -32,7 +32,8 @@ header {
 header .logo img {
   height: 50px;
   width: auto;
-  margin-left: 20px;
+  margin-left: 2rem;
+  margin-top: 0.5rem;
 }
 
 .menu {

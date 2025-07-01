@@ -115,7 +115,6 @@ header .logo img {
 
 main {
     padding: 2rem;
-    font-family: sans-serif;
     margin-bottom: 5rem;
 }
 
@@ -126,13 +125,13 @@ main {
 }
 
 .blog-header h2 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     color: #333;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
 }
 
 .blog-header p {
-    font-size: 1.2rem;
+    font-size: 2rem;
     color: #666;
 }
 
@@ -176,19 +175,19 @@ main {
 }
 
 .blog-content h3 {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     color: #222;
     margin-bottom: 0.8rem;
 }
 
 .blog-content p {
-    font-size: 1rem;
+    font-size: 1.4rem;
     color: #555;
     margin-bottom: 1rem;
 }
 
 .post-meta {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     color: #999;
 }
 

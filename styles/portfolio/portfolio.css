@@ -329,6 +329,7 @@ header .logo img {
     padding: 0.5rem 0.7rem;
     transition: all 0.5s ease-in-out;
     transform: translate3d(0px, 0px, 20px);
+    text-decoration: none;
 }
 
 .content-box .see-more:hover {
@@ -349,15 +350,22 @@ header .logo img {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 17px 10px -10px;
 }
 
-
-
 .date-image {
     width: 40px;
     /* ajusta según tu diseño */
     height: auto;
     display: block;
     margin: 0 auto;
+    transition: transform 0.3s ease, filter 0.3s ease;
 }
+
+.date-image:hover {
+  transform: scale(1.1); /* Zoom ligero */
+  filter: brightness(1.2); /* Hace la imagen más clara */
+}
+
+
+
 
 
 

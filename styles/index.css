@@ -127,7 +127,8 @@ header .logo img {
   position: absolute;
   width: 100%;
   height: 100%;
-  object-fit: contain; /* O usa contain si prefieres ver todo */
+  object-fit: contain;
+  /* O usa contain si prefieres ver todo */
   top: 0;
   left: 0;
   transition: clip-path 0.2s ease;
@@ -138,12 +139,14 @@ header .logo img {
 .image-front {
   z-index: 2;
   clip-path: inset(0 100% 0 0);
-  transform: scaleX(1.4); /* Aumenta el ancho en un 20% */
+  transform: scaleX(1.4);
+  /* Aumenta el ancho en un 20% */
 }
 
 .image-back {
   z-index: 1;
-  clip-path: inset(0 0% 0 0); /* Visible completamente */
+  clip-path: inset(0 0% 0 0);
+  /* Visible completamente */
 }
 
 .overlay-text {
@@ -154,7 +157,8 @@ header .logo img {
   height: 100%;
   z-index: 3;
   display: flex;
-  justify-content: space-around; /* Espacio entre las dos columnas */
+  justify-content: space-around;
+  /* Espacio entre las dos columnas */
   align-items: center;
   text-align: center;
   color: var(--gray-principal);
@@ -346,6 +350,28 @@ header .logo img {
   backdrop-filter: blur(5px);
   border-radius: 5px;
 }
+
+.description a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.description a:hover {
+  color: #38bdf8;
+}
+
+.github-icon {
+  font-size: 2.7rem; /* o usa 2.25rem si lo quieres más cerca de 2x */
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.github-icon:hover {
+  color: #38bdf8;
+}
+
+
 
 .badge {
   font-size: 1.5rem;

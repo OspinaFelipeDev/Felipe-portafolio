@@ -250,11 +250,16 @@ header .logo img {
     margin-bottom: 1.5rem;
 }
 
-
 .skilss img {
     max-width: 100%;
     height: auto;
     border-radius: 1.5rem;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    cursor: pointer;
+}
+
+.skilss img:hover {
+    transform: scale(1.03);
 }
 
 .random-facts {
@@ -292,12 +297,17 @@ header .logo img {
     margin-bottom: 1.5rem;
 }
 
-
 .container-fan img {
     max-width: 100%;
     height: auto;
-    border-radius: 1rem;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    cursor: pointer;
 }
+
+.container-fan img:hover {
+    transform: scale(1.03);
+}
+
 
 
 

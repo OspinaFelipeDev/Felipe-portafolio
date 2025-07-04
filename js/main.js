@@ -11,7 +11,6 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   // 📌 Formulario de contacto
-  // 📌 Formulario de contacto
   const contactForm = document.getElementById("contact-form");
   if (contactForm) {
     contactForm.addEventListener("submit", function (event) {
@@ -62,8 +61,5 @@ document.addEventListener("DOMContentLoaded", () => {
     backImage.style.clipPath = `inset(0 0% 0 0)`; // Muestra toda la de fondo
   });
 });
-
-
-
 
 

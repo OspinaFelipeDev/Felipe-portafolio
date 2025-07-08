@@ -22,6 +22,10 @@ Además del desarrollo, también incluyo una sección sobre mi experiencia como 
 
 ![Creditos](assets/img/capture-5.png)
 
+- Sección About Me (Pantalla Desktop)
+
+![Creditos](assets/img/capture-6.png)
+
 ## 🚀 Características
 
 - Navegación clara y organizada por secciones.

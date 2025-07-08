@@ -14,13 +14,13 @@ Además del desarrollo, también incluyo una sección sobre mi experiencia como 
 ![Inicio-Móvil](assets/img/capture-2.png)
 
 
-- Sección About me
+- Sección About me y contacto
 
-![Creditos](assets/img/credits.jpeg)
+![Creditos](assets/img/capture-4.png)
 
-- Sección Contacto
+- Sección Blog y recursos
 
-![Creditos](assets/img/credits.jpeg)
+![Creditos](assets/img/capture-5.png)
 
 ## 🚀 Características
 

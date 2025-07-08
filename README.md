@@ -1,4 +1,4 @@
-# 🌐 Portafolio Web - Andres Felipe Cubillos Ospina🎵​
+# 🌐 Portafolio Web - Andres Felipe Cubillos Ospina🎵
 
 ¡Bienvenido a mi portafolio interactivo!  
 Aquí comparto los proyectos más representativos que he desarrollado como **Frontend Developer**, fusionando creatividad, rendimiento y buenas prácticas de desarrollo web.
@@ -11,12 +11,14 @@ Además del desarrollo, también incluyo una sección sobre mi experiencia como 
 
 - Página principal.
 
-![Inicio-Móvil](assets/img/movil_init.jpeg)
-
-![Inicio-Desktop](assets/img/desktop_init.png)
+![Inicio-Móvil](assets/img/capture-2.png)
 
 
-- Creditos
+- Sección About me
+
+![Creditos](assets/img/credits.jpeg)
+
+- Sección Contacto
 
 ![Creditos](assets/img/credits.jpeg)
 

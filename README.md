@@ -24,7 +24,7 @@ Además del desarrollo, también incluyo una sección sobre mi experiencia como 
 
 - Sección About Me (Pantalla Desktop)
 
-![Creditos](assets/img/capture-6.png)
+![Creditos](assets/img/capture-7.png)
 
 ## 🚀 Características
 
